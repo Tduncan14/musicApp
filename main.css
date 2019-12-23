@@ -1,4 +1,49 @@
 /* YOUR CODE GOES HERE */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
     font-family: 'Courgette', cursive;
+    background:#f5f3f5;
+}
+
+.logo-container{
+    padding:0 20px 0 0;
+    display:flex !important;
+    justify-content:space-between;
+    background:#f15025;
+}
+
+.side-logo img{
+    width:100px;
+    align-self:center;
+}
+
+.side-btn{
+    align-self:center;
+    border:3px solid #272727;
+}
+
+.bar-1,.bar-2,.bar-3{
+    width:30px;
+    height:4px;
+    margin:6px 5px;
+    background:#272727;
+}
+
+
+.change .bar-1{
+ 
+    transform:rotate(-45deg) translate(-7px,6px);
+}
+.change .bar-2{
+   opacity:0;
+}
+.change .bar-3{
+ 
+    transform:rotate(45deg) translate(-7px,-8px);
 }
