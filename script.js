@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 
+    //side button
     $('.side-btn').click(function(){
      
         $('.side-nav-links').slideToggle(3000);
