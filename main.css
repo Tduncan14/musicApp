@@ -91,3 +91,60 @@ body{
 .side-nav-links{
     display:none;
 }
+/************ top nav************************/
+
+.nav-top{
+    height:107px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+    border-bottom:5px solid #f15025;
+}
+
+.nav-btn{
+    border:3px solid #272727;
+    cursor:pointer;
+    display:none;
+}
+
+.chevron-icons a {
+    font-size:30px;
+    margin:10px;
+}
+
+.nav-img{
+    display:flex;
+
+}
+
+.nav-top img{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    margin-right:10px;
+    align-self:center;
+}
+
+.nav-img h3{
+    align-self:center;
+    color:#272727;
+    font-size:20px;
+}
+.nav-top a{
+    color:#f15025;
+}
+
+.nav-top input{
+    font-size:16px;
+    border:2px solid #a1a2a1;
+    padding:5px;
+}
+
+.nav-top input::placeholder{
+ color:#a1a2a1;
+}
+
+.sign-out{
+    font-size:25px;
+}
