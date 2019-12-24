@@ -8,6 +8,17 @@ $(document).ready(function(){
         $('.side-btn').toggleClass('change')
 
     })
+
+    // nav button
+
+    $('.nav-btn').click(function(){
+
+     $('.side-nav').toggleClass('margin');
+     $('.nav-btn').toggleClass('change');
+     $('.main').toggleClasse('max-width')
+    })
+
+
 })
 
 
